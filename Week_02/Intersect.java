@@ -1,7 +1,9 @@
 package Week_02;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 /*
 求2个数组的交集
@@ -34,5 +36,7 @@ public class Intersect {
         }
         return Arrays.copyOfRange(resultArr, 0, index);
     }
+
+
 
 }
